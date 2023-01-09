@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:lead"
+            ]
+          },
+          "location": {
+            "block": {
+              "tag": "minecraft:fences"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "unleashed:leashing/leash_fence_trigger"
+    }
+  }
+  

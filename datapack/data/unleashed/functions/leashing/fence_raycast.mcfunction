@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #minecraft:fences align xyz positioned ~.5 ~.5 ~.5 run function unleashed:leashing/fence_raycast_found
+execute if entity @s[distance=..6,tag=unleashed.playerLeashing] positioned ^ ^ ^0.001 run function unleashed:leashing/fence_raycast
